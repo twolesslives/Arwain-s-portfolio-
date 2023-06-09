@@ -1,0 +1,106 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    position: relative;
+    height: 90px;
+}
+header > h1 {
+    color: white;
+    font-size: 50px;
+    font-family: sans-serif;
+    padding:10px;
+    z-index: 1;
+}
+
+span.sub {
+    display: block;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+    margin-top: -15px;
+}
+
+nav {
+    position: relative;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.551);
+}
+
+main {
+    position: relative;
+    padding:10px;
+    display: flex;
+    flex-grow: 1;
+    align-content: center;
+}
+
+main > h3 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.back {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    background-image: url('../images/dr.jpg');
+    background-position: center top;
+    z-index: 0;
+}
+.colorback {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,103,134,1) 0%, rgba(0,168,205,1) 55%, rgba(0,144,179,1) 100%);
+}
+
+footer {
+    position: relative;
+    height: 70px;
+    background-color: rgba(23, 19, 19, 0.6);
+    padding: 10px;
+    color:white;
+    font-family: sans-serif;
+}
+
+.login {
+    position: relative;
+    height:200px;
+    align-self: center;
+    margin-left:100px;;
+}
+
+input{
+    height:30px;
+    width:300px;
+    margin: 10px;
+    /* border-radius: 10px; */
+    border:1px solid grey;
+    background-color: rgba(255, 255, 255, 0.851);
+    padding:5px;
+}
+
+button {
+    height:30px;
+    width:145px;
+    margin: 10px;
+    /* border-radius: 10px; */
+    border:2px solid rgb(114, 114, 148);  
+    background-color: white;
+}

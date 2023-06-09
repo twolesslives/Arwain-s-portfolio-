@@ -1,0 +1,30 @@
+.headerspace{
+    /* display: grid; */
+    height: 100%;
+    width: 100vh;
+    border:1px solid red;
+    margin: 1px;
+}
+.imgheader{
+    max-height: 100%;
+    max-width: 100vh;
+    border:1px solid blue;
+    margin: auto;
+
+}
+
+
+.imgspace{
+    /* display: grid; */
+    height: 100px;
+    width: 100vh;
+    border:1px solid red;
+    margin: 1px;
+}
+.imgresize{   
+    max-height: 100%;
+    max-width: 100vh;
+    border: 1px solid blue;
+    margin: auto;
+
+};

@@ -1,0 +1,33 @@
+*{
+    background-color: rgb(116, 204, 255);
+}
+
+header {
+    height: 70px;
+    width: 400px;
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    align-content: center;
+}
+
+nav {
+    height: 30px;
+    width: 400px;
+    background-color: rgb(116, 204, 255);
+    font-size: 16px;
+    margin: 20px;
+}
+main {
+    min-height: 300px;
+    width: 400px;
+    background-color: white;
+    margin: 20px;
+    align-content: center ;
+}
+footer {
+    height: 70px;
+    width: 400px;
+    background-color: rgb(14, 138, 255);
+    font-size: 16px;
+    margin: 20px;
+}
